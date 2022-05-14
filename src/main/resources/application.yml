@@ -1,0 +1,17 @@
+cloud:
+  aws:
+    s3:
+      bucket: jaeyeol-bucket
+    stack:
+      auto: false
+    region:
+      static: ap-northeast-2
+    credentials:
+      access-key: '메롱'
+      secret-key: '멍충멍충'
+logging:
+  level:
+    com:
+      amazonaws:
+        util:
+          EC2MetadataUtils: error
